@@ -1,3 +1,13 @@
+import { Counter, CounterReducer, InputWithFocusButton } from "@/components";
+
 export default function Home() {
-  return <h1>HOME PAGE</h1>;
+  return (
+    <>
+      <Counter />
+      <br />
+      <CounterReducer />
+      <br />
+      <InputWithFocusButton />
+    </>
+  );
 }
